@@ -1,0 +1,98 @@
+.boundary {
+    /* background-image: linear-gradient(to right,#62bef3, rgb(16, 18, 17));   */
+    background-image: linear-gradient(to right, #d88ba5, rgb(145, 9, 77));
+    color: rgb(15, 7, 7);
+    font-size: large;
+    text-align: center;
+    margin: 0 0;
+    padding: 20px 20px;
+
+}
+
+.text {
+    color: white;
+}
+
+.form {
+    height: 490px;
+    width: 380px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 12px;
+    left: 10px;
+    outline: aqua;
+
+}
+
+.input-group {
+    top: 120px;
+    position: absolute;
+    width: 220px;
+    transition: .5s;
+
+}
+
+.input-field {
+    width: 220px;
+    padding: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    margin: 5px 30px 5px 45px;
+}
+.link-btn:link {
+    color: red;
+    background-color: rgb(212, 144, 176);
+    margin: auto;
+    margin-left: auto;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 5px;
+  }
+  .footer {
+    background-color: rgb(169, 8, 67);
+    color: white;
+  
+  }
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(215, 228, 30);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(180, 174, 139);
+  }
+  
+  .btn {
+    color: rgb(133, 7, 7);
+    
+    background: none;
+    border: none;
+    text-align: left;
+    
+    
+  }
+  .btn1 {
+    color: rgb(133, 7, 7);
+    outline: none;
+    background: none;
+    border: none;
+    left: 100px;
+    background-color: #d88ba5;
+  }
+  

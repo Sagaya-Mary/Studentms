@@ -1,0 +1,10 @@
+import React from "react";
+import {applyMiddleware, createStore} from "redux"
+import thunk from "redux-thunk";
+import RootReducer from "../reducer/RootReducer";
+
+const Store=()=>{
+   return createStore(RootReducer,applyMiddleware(thunk))
+}
+
+export default Store
